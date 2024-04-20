@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+speedtest-cli = "*"
+
+[dev-packages]
+pipenv = "*"
+
+[requires]
+python_version = "3.9"
+
+
+[scripts]
+speed_test = "python speed_test.py"

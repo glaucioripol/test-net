@@ -1,0 +1,3 @@
+results/*.db
+results/*.sqlite
+results/*.json
